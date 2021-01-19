@@ -2,6 +2,7 @@ const mah = document.querySelector(".ram")
 const name = document.querySelector("#name")
 const email = document.querySelector("#email")
 const date = document.querySelector("#date")
+const phone = document.querySelector("#phone")
 const message = document.querySelector("#message")
  console.log('came in')
 
@@ -14,6 +15,7 @@ function power(){
     email.value = '';
     date.value = '';
     message.value = '';
+    phone.value = '';
 
 }
 
