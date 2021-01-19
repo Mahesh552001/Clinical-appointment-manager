@@ -6,7 +6,7 @@ const name = document.querySelector("#name")
 //  mah.onsubmit
 function power(){
     var x = names.push(name.value)
-    window.alert("Dear "+name.value+" ,Your appoinment with token number " + names.push()+" has been booked successfully, Thank You!!")
+    window.alert("Dear "+name.value+" ,Your appoinment with token number " + (names.push()).bold()+" has been booked successfully, Thank You!!")
     name.value = '';
 
 }
