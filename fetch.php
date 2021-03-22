@@ -2,14 +2,14 @@
 <?php 
   
 
-$user = 'epiz_28181131'; 
-$password = 'W8aFz1KHravgd';  
+$user ='' ; 
+$password = '';  
   
 
-$database = 'epiz_28181131_webcam';  
+$database = '';  
   
 
-$servername='sql312.epizy.com'; 
+$servername=''; 
 $mysqli = new mysqli($servername, $user,  
                 $password, $database); 
 
@@ -71,7 +71,7 @@ $mysqli->close();
   
 <body> 
     <section> 
-        <h1>Appointments</h1> 
+        <h1>Your Appointment</h1> 
         
         <table> 
             <tr>
