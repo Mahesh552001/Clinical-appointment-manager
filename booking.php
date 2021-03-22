@@ -13,7 +13,7 @@
         // username => root 
         // password => empty 
         // database name => Mahesh 
-        $conn = mysqli_connect("sql312.epizy.com", "epiz_28181131", "W8aFz1KHravgd", "epiz_28181131_webcam"); 
+        $conn = mysqli_connect("", "", "", ""); 
           
         // Check connection 
         if($conn === false){ 
